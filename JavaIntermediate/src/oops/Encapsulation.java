@@ -33,7 +33,20 @@ public class Encapsulation {
 	public static void main(String[] args) {
 		Dog obj = new Dog();
 		System.out.println(obj);
+
+		// Printing the class variables	
+		System.out.println(obj.eyes);
+		System.out.println(obj.name);
+		System.out.println(obj.weight);
+		System.out.println(obj.tail);
+		System.out.println(obj.fur);
+		
+		// Calling the class methods
 		obj.bark();
+		obj.jump();
+		obj.fight();
+		obj.drinkMilk();
+		obj.chaseCat();
 		
 	}
 
