@@ -13,7 +13,7 @@ public class Locators {
 		// TODO Auto-generated method stub
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://demo.nopcommerce.com/");
-		List<WebElement> searchBox=driver.findElements(By.id("small-searchterms"));;
+		WebElement searchBox=driver.findElement(By.id("small-searchterms"));
 
 	}
 
